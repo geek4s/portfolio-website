@@ -1,10 +1,10 @@
 function Navbar() {
   return (
-    <header>
-      <nav>
-        <h1>Logo</h1>
+    <header className="navbar">
+      <div className="nav-inner">
+        <div className="logo">Logo</div>
 
-        <ul>
+        <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -12,7 +12,7 @@ function Navbar() {
           <li><a href="#contact">Contact</a></li>
           <li><a href="#resume">Resume</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
   );
 }

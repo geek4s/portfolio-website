@@ -18,7 +18,7 @@ function App() {
         </>
     );
 }
-export default App  */ 
+export default App   */ 
 
 /* function App() {
   return (
@@ -31,11 +31,22 @@ export default App  */
 
 export default App; */
 import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Ideas from "./components/Ideas";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <>
       <Navbar />
+      <About />
+      <Contact />
+      <Ideas />
+      <Projects />
+      <Skills />
+
     </>
   );
 }
