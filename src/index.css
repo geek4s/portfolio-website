@@ -1,1 +1,31 @@
-
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #fafaf7;
+    color: #111
+}
+section {
+    padding: 80px 120px;
+    border-bottom: 1px solid #eee;
+}
+.about-section {
+    padding: 80 px 120 px
+}
+.about-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr ;
+    gap: 60px;
+    align-items: center;
+}
+.about-text h2 {
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+.sparkle {
+    font-size: 24px;
+}
