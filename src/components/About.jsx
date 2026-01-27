@@ -1,7 +1,7 @@
 function About() {
     return (
         <section id="about" className="about-section">
-            <div className ="about=container">
+            <div className ="about-container">
                 {/*LEFT SIDEL TEXT */}
                 <div className="about-text">
                     <h2>

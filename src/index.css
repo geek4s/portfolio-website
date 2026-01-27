@@ -131,3 +131,76 @@ a {
   display: flex;
   gap: 16px;
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 18px;
+  padding: 28px;
+}
+
+.project-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 14px 0;
+}
+
+.project-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.project-links a {
+  padding: 8px 14px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.idea-card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.idea-card h3 {
+  margin-bottom: 12px;
+}
+
+.idea-card ul {
+  padding-left: 18px;
+}
+section:nth-child(even) {
+  background-color: #fdfcf9;
+}
+.project-links a:hover,
+.resume-btn:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
