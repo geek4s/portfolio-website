@@ -31,22 +31,32 @@ export default App   */
 
 export default App; */
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Ideas from "./components/Ideas";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Resume from "./components/Resume";
+
 
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
       <About />
       <Contact />
       <Ideas />
       <Projects />
       <Skills />
-
+      {/* bottom CTA */}
+      <section id="contact">
+        <div className="contact-resume">
+          <Contact />
+          <Resume />
+        </div>
+      </section>
     </>
   );
 }
